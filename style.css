@@ -1,0 +1,66 @@
+
+* { 
+    outline: 1px solid red;
+}
+
+body { 
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+.header { 
+    background-color: darkgreen;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex: 0;
+}
+
+.header-sidetabs {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.sidetabs {
+    padding: 0;
+    font-size: 16px;
+    font-style: normal;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.mini-body1 {
+    background-color: rgb(0, 85, 0);
+    flex: 1;
+    display: flex;
+}
+
+.mini-body2 {
+    background-color: rgb(0, 85, 0);
+    flex: 1;
+    display: flex;
+}
+
+
+
+.footer {
+    padding: 20px;
+    display: flex;
+    background: white;
+}
